@@ -131,3 +131,6 @@ dmypy.json
 
 # Bash files
 *.sh
+
+# ONNX files
+*.onnx
