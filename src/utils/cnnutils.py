@@ -9,4 +9,5 @@ def saveONNX():
     predictions = model(x)
 
     # optionally, if you want to export the model to ONNX:
-    torch.onnx.export(model, x, "keypoint_rcnn.onnx", opset_version = 11)
+    torch.onnx.export(model, x, "keypoint_rcnn.onnx", opset_version = 11, verbose=True)
+
